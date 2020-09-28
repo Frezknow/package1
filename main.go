@@ -5,5 +5,5 @@ func Sum(x1 ...int) int{
  for _, v := range xi{
   sum += v
  }
-
+  return sum;
 }
